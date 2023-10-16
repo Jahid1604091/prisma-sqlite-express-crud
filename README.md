@@ -12,9 +12,9 @@
 
 **npx prisma init** → will add prisma related basic files like scema env etc.
 
-**npx prisma studio** -.> to start
+**npx prisma studio** -.> to start studio
 
-**npx prisma migrate db_name** → to create table
+**npx prisma migrate dev** → to create table
 
 **npx prisma generate** → if changes any attribute/field and also run migrate **with default value**
 Default  DATABASE_URL="postgresql://johndoe:randompassword@localhost:5432/mydb?schema=public”
